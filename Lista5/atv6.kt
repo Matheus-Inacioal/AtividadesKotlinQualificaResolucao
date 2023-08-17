@@ -11,11 +11,11 @@
         numeros[i] = readLine()!!.toInt() // Lê o número inteiro inserido pelo usuário
     }
 
-    // Ordena os números em ordem crescente
-    numeros.sort()
+    // Ordena os números em ordem decrescente
+    numeros.sortDescending()
 
-    // Imprime os números em ordem crescente
-    println("Números em ordem crescente:")
+    // Imprime os números em ordem decrescente
+    println("Números em ordem decrescente:")
     for (numero in numeros) {
         println(numero)
     }
